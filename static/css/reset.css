@@ -1,0 +1,141 @@
+body, dl, dd, h1, h2, h3, h4, h5, h6, p, form {
+    margin: 0;
+}
+body {
+    background: #eeeff4;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+    font-size: 12px;
+}
+table {
+    font-size: 12px;
+}
+
+ul,ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+a {
+    color: #3c8ae3;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a img, :link img, :visited img {
+    border: none
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+.panel-heading {
+    padding: 10px 30px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border: 1px #e7eaef solid;
+    background: #f9f9f9;
+    margin-top: 20px;
+    position: relative;
+}
+.panel-title {
+    font-size: 16px;
+    font-weight: normal;
+
+}
+.panel-body {
+    background: #fff;
+    padding:15px 20px;
+    border: 1px #e7eaef solid;
+    border-top: 0;
+}
+
+.panel-pos {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+/*table*/
+
+.double-t .el-table th{
+    height: auto;
+}
+/*
+  设置表格样式
+*/
+
+.el-table__header-wrapper {
+    padding-top: 15px;
+    background: #EFF2F7;
+}
+
+.el-table th.is-leaf {
+    border-bottom: none !important;
+    padding-bottom: 15px;
+    height: auto;
+}
+.el-table th {
+    height: auto !important;
+}
+.el-table th {
+    background: #f6f7f9;
+}
+.el-table .cell, .el-table th>div {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.page-content .el-table th>.cell {
+    line-height: 10px;
+}
+.user_icon ,.operate_icon ,.zichan_icon ,.base_icon{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+
+    margin-right: 8px;
+    margin-left: 40px;
+}
+.user_icon {
+    background: url("./../../static/images/user.png") no-repeat;
+    background-size: 100%;
+}
+.operate_icon {
+    background: url("./../../static/images/operate.png") no-repeat;
+    background-size: 100%;
+}
+.zichan_icon {
+    background: url("./../../static/images/zichan.png") no-repeat;
+    background-size: 100%;
+}
+.base_icon {
+    background: url("./../../static/images/base.png") no-repeat;
+    background-size: 100%;
+}
+
+.search-block {
+    padding: 20px 20px 4px 20px;
+    border: 1px #e4ebf1 solid;
+    background: #fff;
+    margin-top: 20px;
+    margin-left: 0 !important;
+}
+
+.search-block .el-col {
+    padding-left: 0 !important;
+}
+.el-row {
+    margin-left: 0 !important;
+}
+
