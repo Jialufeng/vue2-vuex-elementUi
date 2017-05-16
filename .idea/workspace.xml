@@ -2,60 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1ec4fa0-2b5c-45ae-b446-8d56dbb67e3e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/BingqiChen.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/bingq.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/assets/assets_car/assets_add.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/assets/assets_car/assets_detail.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/assets/assets_car/assets_list.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/assets/assets_car/assets_safest_detail.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/assets/assets_car/assets_tab.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/assets/assets_repair/assets_repair_detail.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/assets/assets_repair/assets_repair_list.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/assets/assets_safest/assets_safest_detail.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/assets/assets_safest/assets_safest_list.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/assets/assets_supplier/assets_supplier_detail.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/assets/assets_supplier/assets_supplier_list.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/base/car_type/add.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/base/car_type/list.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/base/city/limitnum.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/base/city/list.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/base/cost/list.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/base/garage/add.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/base/garage/list.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/base/parking/add.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/base/parking/list.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_car/manage_car_list.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_stock/stock.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_task/task_detail.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_task/task_end.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_task/task_heading.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_task/task_pending.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_task/task_tab.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_tongji/tongji_added.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_tongji/tongji_cheku.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_tongji/tongji_operate.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_tongji/tongji_tab.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_tongji/tongji_task.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_tongji/tongji_yongche.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/manage/manage_tongji/tongji_zichan.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/user/auth_log.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/user/balance.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/user/order/detail.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/user/order/fee.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/user/order/unlock.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/user/user_audit.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/user/user_car.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/user/user_detail.vue" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/pages/user/user_tab.vue" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/menu.js" afterPath="$PROJECT_DIR$/config/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/apis.js" afterPath="$PROJECT_DIR$/src/api/apis.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/api/urls.js" afterPath="$PROJECT_DIR$/src/api/urls.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/layout/Sidebar.vue" afterPath="$PROJECT_DIR$/src/components/layout/Sidebar.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/user/order/list.vue" afterPath="$PROJECT_DIR$/src/components/pages/user/order/list.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/pages/user/user_list.vue" afterPath="$PROJECT_DIR$/src/components/pages/user/user_list.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -118,11 +66,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -151,16 +119,6 @@
                 <element signature="n#style#0;n#p#0;n#template#0;n#el-table-column#1;n#el-table#0;n#template#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="e#5435#5462#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sidebar.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/layout/Sidebar.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -204,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/components/pages/home/home.vue" />
         <option value="$PROJECT_DIR$/src/components/pages/user/user_list.vue" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -562,18 +521,18 @@
       <updated>1494931459385</updated>
       <workItem from="1494931908609" duration="537000" />
       <workItem from="1494932775737" duration="471000" />
-      <workItem from="1494933361991" duration="1068000" />
+      <workItem from="1494933361991" duration="1263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2076000" />
+    <option name="totallyTimeSpent" value="2271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="793" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -713,6 +672,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="61" column="38" lean-forward="true" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>
