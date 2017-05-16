@@ -2,7 +2,7 @@
     <div class="page_right">
 
         <el-breadcrumb separator="/">
-            <el-breadcrumb-item :to="{ path: '/' }">用户管理</el-breadcrumb-item>
+            <el-breadcrumb-item :to="{ path: '/' }">二级</el-breadcrumb-item>
         </el-breadcrumb>
 
         <el-form ref="form" :model="form">
@@ -48,27 +48,6 @@
         <div class="double-t">
             <template>
                 <el-table :data="userdata" style="width: 100%; margin-top: 20px">
-                    <el-table-column label="用户">
-                        <el-table-column prop="user" label="电话">
-                            <template scope="scope">
-                                <p style="margin-left: 10px"><span class="user-icon user-w"></span>{{ scope.row.user }}</p>
-                                <p style="margin-left: 10px">{{ scope.row.tel }}</p>
-                            </template>
-                        </el-table-column>
-                    </el-table-column>
-                    <el-table-column label="所选车库">
-                        <template scope="scope">
-                            <p style="margin-left: 10px"><span class="lock-icon lock"></span>{{ scope.row.garage }}</p>
-                        </template>
-                    </el-table-column>
-                    <el-table-column prop="address" label="用车次数">
-                        <el-table-column prop="address" label="累计消费金额">
-                            <template scope="scope">
-                                <p style="margin-left: 10px">{{ scope.row.times }}</p>
-                                <p style="margin-left: 10px">{{ scope.row.banlce }}</p>
-                            </template>
-                        </el-table-column>
-                    </el-table-column>
                     <el-table-column prop="date" label="充值次数">
                         <el-table-column label="剩余余额">
                             <template scope="scope">
@@ -84,8 +63,6 @@
                                 <p style="margin-left: 10px">{{ scope.row.banlce }}</p>
                             </template>
                         </el-table-column>
-                    </el-table-column>
-                    <el-table-column prop="state" label="预授权状态">
                     </el-table-column>
                     <el-table-column prop="date" label="最后用车时间">
                         <el-table-column label="注册时间">
@@ -121,7 +98,7 @@
     import Select from 'element-ui'
 
 
-    import {mapState, mapActions} from 'vuex' // 上传
+    import {mapState, mapActions} from 'vuex' //
 
     export default {
         data() {
@@ -135,36 +112,20 @@
                 },
                 userdata: [
                     {
-                        user:'王慧元',
-                        tel:'18547569854',
-                        garage:'新能源-tesla Model S',
                         banlce:'20000',
                         times:'2次',
-                        state:'正常'
                     },
                     {
-                        user:'王慧元',
-                        tel:'18547569854',
-                        garage:'新能源-tesla Model S',
                         banlce:'20000',
                         times:'2次',
-                        state:'正常'
                     },
                     {
-                        user:'王慧元',
-                        tel:'18547569854',
-                        garage:'新能源-tesla Model S',
                         banlce:'20000',
                         times:'2次',
-                        state:'正常'
                     },
                     {
-                        user:'王慧元',
-                        tel:'18547569854',
-                        garage:'新能源-tesla Model S',
                         banlce:'20000',
                         times:'2次',
-                        state:'正常'
                     }
 
                 ]
@@ -198,33 +159,5 @@
 <style>
     .search-block {
         margin-right: 0 !important;
-    }
-    
-    .user-icon,
-    .lock-icon {
-        width: 18px;
-        height: 18px;
-        display: inline-block;
-        margin-right: 5px;
-        float: left;
-    }
-    
-    .user-w,
-    .user-m,
-    .lock,
-    .unlock {
-        background: url(/static/images/woman.png) center center no-repeat;
-    }
-    
-    .user-m {
-        background-image: url(/static/images/man.png);
-    }
-    
-    .lock {
-        background-image: url(/static/images/lock.png);
-    }
-    
-    .unlock {
-        background-image: url(/static/images/unlock.png);
     }
 </style>

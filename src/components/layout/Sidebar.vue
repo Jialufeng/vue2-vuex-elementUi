@@ -70,7 +70,8 @@
         margin-left: 40px;
     }
     .sidebar {
-        position: absolute;
+        position: fixed;
+        height: 100%;
         left: 0;
         float: left;
         overflow: hidden;
