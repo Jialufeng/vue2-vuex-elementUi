@@ -1,5 +1,4 @@
-
-
+克隆：git clone https://github.com/Jialufeng/vue2-vuex-elementUi.git 
 
 1, npm install  // 安装依赖
 
@@ -10,7 +9,7 @@
 ########
 
 
-vue2 + vuex
+vue2 + vuex + element-ui
 
 
 npm run dev    启动本地服务
